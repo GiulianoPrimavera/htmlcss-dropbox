@@ -9,6 +9,10 @@
 body{
     font-family: "Opern Sans", sans-serif;
 }
+header{
+    background-color: #B4D0E7;
+    position: relative;
+}
 h1{
     font-size: 77px;
 }
@@ -21,30 +25,8 @@ h3{
 h4, h5{
     font-size: 16px;
 }
-
-/* barra di navigazione */
-nav{
-    padding: 18px 0;
-}
-ul{
-    list-style: none;
-    display: inline-block;
-    width: 49%;
-}
-nav ul:nth-child(2){
-    text-align: right;
-}
-li{
-    display: inline-block;
-}
-a{
-    text-decoration: none;
-    color: #000;
-    display: inline-block;
-    padding: 10px 20px;
-}
-nav ul:first-child li:first-child{
-    vertical-align: middle;
+.small{
+    font-size: 14px;
 }
 
 
@@ -78,9 +60,64 @@ nav ul:first-child li:first-child{
 }
 
 /* bottoni */
-.button_begin{
+.button_blue{
     background-color: #0D61FF;
     color: white;
-    font-size: 14px;
     padding: 8px 20px;
+}
+
+/* barra di navigazione */
+nav{
+    padding: 18px 0;
+    background-color: #FFF;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+    width: 49%;
+}
+nav ul:nth-child(2){
+    text-align: right;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul:first-child li:first-child{
+    vertical-align: middle;
+}
+
+/* hero */
+.hero{
+    max-width: 75%;
+    margin: auto;
+    padding-top: 120px;
+    position: relative;
+    bottom: -70px;
+}
+.hero .col_6_9 img{
+    width: 90%;
+    padding-left: 45px;
+}
+.hero h1{
+    padding-bottom: 60px
+}
+.hero p{
+    line-height: 25px;
+    padding-bottom: 25px;
+}
+.hero .small{
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+.hero .fas{
+    font-size: 30px;
 }
