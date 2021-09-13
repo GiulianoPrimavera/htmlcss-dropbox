@@ -131,35 +131,45 @@ nav ul:first-child li:first-child{
 }
 
 /* sezione piano Dropbox */
-.dropbox_plan h2{
-    padding-bottom: 40px;
+.dropbox_plan .radio_button{
+    padding: 40px 0;
 }
 .dropbox_plan .col_3_9{
     border: 1px solid #d3d3d3;
-    min-height: 800px;
+    min-height: 900px;
 }
 .plan_icon{
     border-bottom: 1px solid #d3d3d3;
     text-align: center;
     line-height: 40px;
 }
+.plan_1, .plan_2, .plan_3{
+    padding: 30px;
+}
+.dropbox_plan .col_3_9 h3{
+    padding: 18px 0;
+}
 .dropbox_plan .col_3_9 p:first-of-type{
     color: #808080;
+    padding: 15px 0;
 }
-.dropbox_plan ul{
+.dropbox_plan .col_3_9 ul{
     list-style: none;
+    padding: 15px 0;
+}
+.dropbox_plan /* .col_3_9 */ ul li{
+    padding: 12px 0;
 }
 .buy_now{
     color: #0000ff;
     text-decoration: underline;
-    padding: 0;
+    padding: 15px 0;
 }
 .dropbox_plan .col_3_9 hr{
     width: 20%;
+    margin: 15px 0;
 }
-.dropbox_plan .col_3_9 ul{
-    list-style: none;
-}
- .dropbox_plan .col_3_9 ul:nth-of-type(2) i{
+.dropbox_plan .col_3_9 ul:nth-of-type(2) i{
     color: #0000ff;
 }
+
