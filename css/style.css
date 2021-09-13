@@ -13,6 +13,15 @@ header{
     background-color: #B4D0E7;
     position: relative;
 }
+main{
+    padding-top: 120px;
+}
+
+
+section{
+    width: 50%;
+    margin: auto;
+}
 h1{
     font-size: 77px;
 }
@@ -65,7 +74,12 @@ h4, h5{
     color: white;
     padding: 8px 20px;
 }
-
+a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 10px 20px;
+}
 /* barra di navigazione */
 nav{
     padding: 18px 0;
@@ -74,7 +88,7 @@ nav{
     width: 100%;
     z-index: 99;
 }
-ul{
+nav ul{
     list-style: none;
     display: inline-block;
     width: 49%;
@@ -82,14 +96,8 @@ ul{
 nav ul:nth-child(2){
     text-align: right;
 }
-li{
+nav li{
     display: inline-block;
-}
-a{
-    text-decoration: none;
-    color: #000;
-    display: inline-block;
-    padding: 10px 20px;
 }
 nav ul:first-child li:first-child{
     vertical-align: middle;
@@ -120,4 +128,38 @@ nav ul:first-child li:first-child{
 }
 .hero .fas{
     font-size: 30px;
+}
+
+/* sezione piano Dropbox */
+.dropbox_plan h2{
+    padding-bottom: 40px;
+}
+.dropbox_plan .col_3_9{
+    border: 1px solid #d3d3d3;
+    min-height: 800px;
+}
+.plan_icon{
+    border-bottom: 1px solid #d3d3d3;
+    text-align: center;
+    line-height: 40px;
+}
+.dropbox_plan .col_3_9 p:first-of-type{
+    color: #808080;
+}
+.dropbox_plan ul{
+    list-style: none;
+}
+.buy_now{
+    color: #0000ff;
+    text-decoration: underline;
+    padding: 0;
+}
+.dropbox_plan .col_3_9 hr{
+    width: 20%;
+}
+.dropbox_plan .col_3_9 ul{
+    list-style: none;
+}
+ .dropbox_plan .col_3_9 ul:nth-of-type(2) i{
+    color: #0000ff;
 }
