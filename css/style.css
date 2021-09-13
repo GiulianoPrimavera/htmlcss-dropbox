@@ -1,12 +1,14 @@
+/* reset */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+/* selettori generici */
 body{
     font-family: "Opern Sans", sans-serif;
 }
-
 h1{
     font-size: 77px;
 }
@@ -20,12 +22,39 @@ h4, h5{
     font-size: 16px;
 }
 
+/* barra di navigazione */
+nav{
+    padding: 18px 0;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+    width: 49%;
+}
+nav ul:nth-child(2){
+    text-align: right;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul:first-child li:first-child{
+    vertical-align: middle;
+}
+
+
 .clearfix:after{
     content: "";
     display: table;
     clear: both;
 }
 
+/* classi colonne */
 [class*="col_"]{
     float: left;
 }
@@ -46,4 +75,12 @@ h4, h5{
 }
 .col_6_9{
     width: calc(100% / 9 * 6);
+}
+
+/* bottoni */
+.button_begin{
+    background-color: #0D61FF;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
 }
