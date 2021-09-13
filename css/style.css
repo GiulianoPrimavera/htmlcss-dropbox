@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Opern Sans", sans-serif;
+}
+
+h1{
+    font-size: 77px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
+}
+h4, h5{
+    font-size: 16px;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+[class*="col_"]{
+    float: left;
+}
+.col_1_9{
+    width: calc(100% / 9);
+}
+.col_2_9{
+    width: calc(100% / 9 * 2);
+}
+.col_3_9{
+    width: calc(100% / 9 * 3);
+}
+.col_4_9{
+    width: calc(100% / 9 * 4);
+}
+.col_5_9{
+    width: calc(100% / 9 * 5);
+}
+.col_6_9{
+    width: calc(100% / 9 * 6);
+}
