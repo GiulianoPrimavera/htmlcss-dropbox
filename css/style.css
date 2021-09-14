@@ -206,7 +206,7 @@ nav ul:first-child li:first-child{
 
 /* sezione partner */
 .partner{
-    margin-top: 200px;
+    padding-top: 200px;
 }
 .partner .col_5_9 img{
     width: 100%;
@@ -227,7 +227,7 @@ nav ul:first-child li:first-child{
 
 /* sezione operazioni */
 .operations{
-    margin: 200px auto;
+    padding-top: 200px;
 }
 .operations h2{
     padding-bottom: 30px;
@@ -249,6 +249,7 @@ nav ul:first-child li:first-child{
 /* sezione dropbox buisness */
 .buisness{
     width: 100%;
+    padding-top: 200px;
 }
 .dropbox_buisness_title{
     margin: auto;
@@ -307,8 +308,6 @@ nav ul:first-child li:first-child{
     transform: translate(-50%, -50%);
     filter: invert(100%);
 }    
-
-
 /* posizionamento e sfondo dei loghi delle aziende */
 .bg_lightgreen{
     background-color: #9fc99f;
@@ -349,4 +348,26 @@ nav ul:first-child li:first-child{
     float: right;
     padding: 8px 60px;
     border: none;
+}
+
+
+/* sezione domande frequenti */
+.faq{
+    padding-top: 150px;
+}
+.faq h3{
+    padding-bottom: 60px;
+}
+.faq div{
+    padding: 20px 0;
+    border-top: 1px solid #d3d3d3;
+}
+.faq h5{
+    float: left;
+}
+.faq div:last-child{
+    border-bottom: 1px solid #d3d3d3;
+}
+.faq div i{
+    float: right;
 }
