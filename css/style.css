@@ -19,7 +19,7 @@ main{
 
 
 section{
-    width: 55%;
+    width: 60%;
     margin: auto;
 }
 h1{
@@ -110,7 +110,7 @@ nav ul:first-child li:first-child{
 
 /* hero */
 .hero{
-    max-width: 75%;
+    max-width: 82%;
     margin: auto;
     padding-top: 120px;
     position: relative;
@@ -141,7 +141,7 @@ nav ul:first-child li:first-child{
 }
 .dropbox_plan .col_3_9{
     min-height: 900px;
-    padding: 0 15px;
+    padding: 0 10px;
 }.dropbox_plan .col_3_9:first-child{
     padding-left: 0;
 }
@@ -200,7 +200,7 @@ nav ul:first-child li:first-child{
     min-height: auto;
 }
 .last_plan .button_blue{
-    padding: 8px 60px;
+    padding: 8px 50px;
 }
 
 
@@ -335,9 +335,9 @@ nav ul:first-child li:first-child{
     background-color: #77bbc4;
 }
 .dropbox_buisness_undertitle{
-    width: 55%;
+    width: 70%;
     margin: auto;
-    padding: 100px;
+    padding: 100px 50px;
 }
 .dropbox_buisness_undertitle h2{
     float: left;
@@ -386,7 +386,7 @@ footer .footer_list{
 footer ul{
     list-style: none;
     float: left;
-    padding: 0 75px;
+    padding: 0 50px;
     padding-bottom: 130px;
 }
 footer h5{
@@ -402,6 +402,9 @@ footer ul a{
 }
 footer ul:first-of-type{
     padding-left: 0;
+}
+footer ul:last-of-type{
+    padding-right: 0;
 }
 footer a{
     color: #808080;
