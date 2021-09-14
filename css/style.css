@@ -261,7 +261,6 @@ nav ul:first-child li:first-child{
 }
 .dropbox_buisness{
     width: 100%;
-    background-color: lightpink;
 }
 .dropbox_buisness div:nth-of-type(odd){
     width: 30%;
@@ -289,5 +288,26 @@ nav ul:first-child li:first-child{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #ffffff;
+    filter: invert(100%);
 }    
+.bg_lightgreen{
+    background-color: #9fc99f;
+}
+.bg_bordeaux{
+    background-color: #61082b;
+}
+.bg_bluesky{
+    background-color: #6d9ffc;
+}
+.bg_red{
+    background-color: #ff0000;
+}
+.bg_bluewater{
+    background-color: #84d3dd;
+}
+.bg_blue{
+    background-color: rgb(0, 0, 155);
+}
+.bg_yellow{
+    background-color: rgb(219, 219, 10);
+}
