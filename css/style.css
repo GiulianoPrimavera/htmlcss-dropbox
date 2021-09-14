@@ -143,7 +143,7 @@ nav ul:first-child li:first-child{
     text-align: center;
     line-height: 40px;
 }
-.plan_1, .plan_2, .plan_3{
+.plan_1, .plan_2, .plan_3, .plan_4{
     padding: 30px;
 }
 .dropbox_plan .col_3_9 h3{
@@ -157,7 +157,7 @@ nav ul:first-child li:first-child{
     list-style: none;
     padding: 15px 0;
 }
-.dropbox_plan /* .col_3_9 */ ul li{
+.dropbox_plan ul li{
     padding: 12px 0;
 }
 .buy_now{
@@ -173,3 +173,18 @@ nav ul:first-child li:first-child{
     color: #0000ff;
 }
 
+
+.last_plan{
+    border:  1px solid #d3d3d3;
+    margin-top: 50px;
+}
+.last_plan h4{
+    padding: 20px 0;
+}
+.last_plan .col_3_9{
+    border: none;
+    min-height: auto;
+}
+.last_plan .button_blue{
+    padding: 8px 60px;
+}
