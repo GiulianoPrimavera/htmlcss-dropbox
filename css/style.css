@@ -167,11 +167,12 @@ nav ul:first-child li:first-child{
 .buy_now{
     color: #0000ff;
     text-decoration: underline;
-    padding: 15px 0;
+    padding-top: 35px;
+    padding-left: 0;
 }
 .dropbox_plan .col_3_9 hr{
     width: 20%;
-    margin: 15px 0;
+    margin: 40px 0;
 }
 .dropbox_plan .col_3_9 ul:nth-of-type(2) i{
     color: #0000ff;
