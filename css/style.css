@@ -226,7 +226,7 @@ nav ul:first-child li:first-child{
 
 /* sezione operazioni */
 .operations{
-    margin-top: 200px;
+    margin: 200px auto;
 }
 .operations h2{
     padding-bottom: 30px;
@@ -244,3 +244,31 @@ nav ul:first-child li:first-child{
 .operations .col_3_9 p{
     line-height: 25px;
 }
+
+/* sezione dropbox buisness */
+.dropbox_buisness_title{
+    margin: auto;
+    width: 55%;
+}
+.dropbox_buisness{
+    width: 100%;
+    background-color: lightpink;
+}
+.dropbox_buisness div:nth-of-type(odd){
+    width: 30%;
+}
+.dropbox_buisness div:nth-of-type(2){
+    width: 40%;
+}
+.dropbox_buisness > div{
+    float: left;
+    border: 1px solid;
+    height:100%;
+}
+.dropbox_buisness div:nth-of-type(odd) div{
+    float: left;
+    width: 50%;
+    height: calc(30vw / 2);
+    border: 1px solid;
+}
+
