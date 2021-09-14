@@ -262,18 +262,21 @@ nav ul:first-child li:first-child{
 .dropbox_buisness{
     width: 100%;
 }
-.dropbox_buisness div:nth-of-type(odd){
+.dropbox_buisness > div:nth-of-type(odd){
     width: 30%;
 }
-.dropbox_buisness div:nth-of-type(2){
+.dropbox_buisness > div:nth-of-type(2){
+    width: 40%;
+    padding: 20px;
+}
+.dropbox_buisness > div:nth-of-type(2) img{
     width: 40%;
 }
 .dropbox_buisness > div{
     float: left;
-    border: 1px solid;
     height:100%;
 }
-.dropbox_buisness div:nth-of-type(odd) div{
+.dropbox_buisness > div:nth-of-type(odd) div{
     float: left;
     width: 50%;
     height: calc(30vw / 2);
@@ -282,7 +285,7 @@ nav ul:first-child li:first-child{
 .dropbox_buisness div.clearfix div{
     position: relative;
 }
-.dropbox_buisness img{
+.dropbox_buisness > div:nth-of-type(odd) img{
     width: 55%;
     position: absolute;
     top: 50%;
@@ -290,6 +293,11 @@ nav ul:first-child li:first-child{
     transform: translate(-50%, -50%);
     filter: invert(100%);
 }    
+.dropbox_buisness hr{
+    width: 30%;
+}
+
+/* posizionamento e sfondo dei loghi delle aziende */
 .bg_lightgreen{
     background-color: #9fc99f;
 }
