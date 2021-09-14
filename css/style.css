@@ -74,12 +74,16 @@ h4, h5{
     color: white;
     padding: 8px 20px;
 }
+.button_white{
+    border: 1px solid;
+}
 a{
     text-decoration: none;
     color: #000;
     display: inline-block;
     padding: 10px 20px;
 }
+
 /* barra di navigazione */
 nav{
     padding: 18px 0;
@@ -187,4 +191,25 @@ nav ul:first-child li:first-child{
 }
 .last_plan .button_blue{
     padding: 8px 60px;
+}
+
+
+/* sezione partner */
+.partner{
+    margin-top: 200px;
+}
+.partner .col_5_9 img{
+    width: 100%;
+}
+.partner .col_4_9{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+.partner .col_4_9 h3{
+    line-height: 30px;;
+}
+.partner .col_4_9 p{
+    line-height: 30px;
+    padding-bottom: 20px; 
 }
