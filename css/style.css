@@ -76,6 +76,7 @@ h4, h5{
 }
 .button_white{
     border: 1px solid;
+    background-color: white;
 }
 a{
     text-decoration: none;
@@ -331,3 +332,21 @@ nav ul:first-child li:first-child{
     background-color: rgb(219, 219, 10);
 }
 
+.dropbox_buisness_undertitle_bg{
+    background-color: #77bbc4;
+}
+.dropbox_buisness_undertitle{
+    width: 55%;
+    margin: auto;
+    padding: 100px;
+}
+.dropbox_buisness_undertitle h2{
+    float: left;
+    color: #61082b;
+    width: 60%;
+}
+.dropbox_buisness_undertitle a{
+    float: right;
+    padding: 8px 60px;
+    border: none;
+}
