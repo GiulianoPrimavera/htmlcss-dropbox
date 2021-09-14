@@ -250,6 +250,15 @@ nav ul:first-child li:first-child{
     margin: auto;
     width: 55%;
 }
+.dropbox_buisness_title h2{
+    width: 555px;
+    line-height: 50px;
+}
+.dropbox_buisness_title a{
+    padding: 35px 0;
+    color: blue;
+    text-decoration: underline;
+}
 .dropbox_buisness{
     width: 100%;
     background-color: lightpink;
@@ -271,4 +280,14 @@ nav ul:first-child li:first-child{
     height: calc(30vw / 2);
     border: 1px solid;
 }
-
+.dropbox_buisness div.clearfix div{
+    position: relative;
+}
+.dropbox_buisness img{
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+}    
