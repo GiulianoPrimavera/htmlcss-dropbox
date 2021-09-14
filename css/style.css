@@ -134,13 +134,16 @@ nav ul:first-child li:first-child{
     font-size: 30px;
 }
 
-/* sezione piano Dropbox */
+/* sezione piano Dropbox */  
 .dropbox_plan .radio_button{
     padding: 40px 0;
 }
 .dropbox_plan .col_3_9{
-    border: 1px solid #d3d3d3;
     min-height: 900px;
+    padding: 0 15px;
+}
+.border{
+    border: 1px solid #d3d3d3;
 }
 .plan_icon{
     border-bottom: 1px solid #d3d3d3;
