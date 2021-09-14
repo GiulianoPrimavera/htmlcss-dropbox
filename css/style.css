@@ -246,6 +246,9 @@ nav ul:first-child li:first-child{
 }
 
 /* sezione dropbox buisness */
+.buisness{
+    width: 100%;
+}
 .dropbox_buisness_title{
     margin: auto;
     width: 55%;
@@ -267,10 +270,21 @@ nav ul:first-child li:first-child{
 }
 .dropbox_buisness > div:nth-of-type(2){
     width: 40%;
-    padding: 20px;
+    padding: 60px;
+    background-color: #e2e1e1;
+    height: 30vw;
+    overflow: auto;
 }
 .dropbox_buisness > div:nth-of-type(2) img{
-    width: 40%;
+    width: 30%;
+}
+.dropbox_buisness > div:nth-of-type(2) hr{
+    width: 60px;
+    color: #d3d3d3;
+    margin: 40px 0;
+}
+.dropbox_buisness > div:nth-of-type(2) p{
+    line-height: 20px;
 }
 .dropbox_buisness > div{
     float: left;
@@ -280,7 +294,6 @@ nav ul:first-child li:first-child{
     float: left;
     width: 50%;
     height: calc(30vw / 2);
-    border: 1px solid;
 }
 .dropbox_buisness div.clearfix div{
     position: relative;
@@ -293,9 +306,7 @@ nav ul:first-child li:first-child{
     transform: translate(-50%, -50%);
     filter: invert(100%);
 }    
-.dropbox_buisness hr{
-    width: 30%;
-}
+
 
 /* posizionamento e sfondo dei loghi delle aziende */
 .bg_lightgreen{
@@ -319,3 +330,4 @@ nav ul:first-child li:first-child{
 .bg_yellow{
     background-color: rgb(219, 219, 10);
 }
+
