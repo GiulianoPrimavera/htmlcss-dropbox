@@ -141,6 +141,11 @@ nav ul:first-child li:first-child{
 .dropbox_plan .col_3_9{
     min-height: 900px;
     padding: 0 15px;
+}.dropbox_plan .col_3_9:first-child{
+    padding-left: 0;
+}
+.dropbox_plan .col_3_9:last-child{
+    padding-right: 0;
 }
 .border{
     border: 1px solid #d3d3d3;
