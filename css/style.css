@@ -83,6 +83,10 @@ a:hover{
     font-size: small;
     text-decoration: none;
 }
+.button_blue:hover{
+    background-color: #538fff;
+    text-decoration: none;
+}
 .button_white{
     border: 1px solid;
     background-color: #ffffff;
@@ -90,7 +94,10 @@ a:hover{
     padding: 8px 20px;
     text-decoration: none;
 }
-
+.button_white:hover{
+    background-color: #d4d4d4;
+    text-decoration: none;
+}
 
 /* barra di navigazione */
 nav{
