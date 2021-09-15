@@ -113,7 +113,7 @@ nav ul:first-child li:first-child{
 .hero{
     max-width: 82%;
     margin: auto;
-    padding-top: 120px;
+    padding-top: 100px;
     position: relative;
     bottom: -70px;
 }
@@ -135,7 +135,9 @@ nav ul:first-child li:first-child{
 .hero .fas{
     font-size: 30px;
 }
-
+.hero .button_blue{
+    font-size: 16px;
+}
 /* sezione piano Dropbox */  
 .dropbox_plan .radio_button{
     padding: 40px 0;
