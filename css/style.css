@@ -368,11 +368,7 @@ nav ul:first-child li:first-child{
     padding: 20px 0;
     border-top: 1px solid #d3d3d3;
     position: relative;
-}                                               /* (usa uno span per il testo nell'h5)
-                                                devi fare la tendina con tabindex="0", e con focus modifichi l'altezza(?)
-                                                già che sei forte anima anche la freccia che si gira quando la premi
-                                                su w3school "the summary element"*/
-
+}                                             
 .faq div:last-child{
     border-bottom: 1px solid #d3d3d3;
 }
