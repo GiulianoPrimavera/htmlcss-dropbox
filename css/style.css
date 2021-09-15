@@ -138,6 +138,7 @@ nav ul:first-child li:first-child{
 .hero .button_blue{
     font-size: 16px;
 }
+
 /* sezione piano Dropbox */  
 .dropbox_plan .radio_button{
     padding: 40px 0;
@@ -366,17 +367,35 @@ nav ul:first-child li:first-child{
 .faq div{
     padding: 20px 0;
     border-top: 1px solid #d3d3d3;
-}
-.faq h5{
-    float: left;
-}
+    position: relative;
+}                                               /* (usa uno span per il testo nell'h5)
+                                                devi fare la tendina con tabindex="0", e con focus modifichi l'altezza(?)
+                                                già che sei forte anima anche la freccia che si gira quando la premi
+                                                su w3school "the summary element"*/
+
 .faq div:last-child{
     border-bottom: 1px solid #d3d3d3;
 }
-.faq div i{
-    float: right;
+.faq div h5{
+    display: inline-block;
 }
-
+.faq div i{
+    position: absolute;
+    right: 0;
+    transition: transform .3s;
+}
+.faq div p{
+    padding-top: 30px;
+    height: 0;
+    display: none;
+}
+.faq div:focus p{
+    display: block;
+    height: 50px;
+}
+.faq div:focus i{
+    transform: rotate(180deg);
+}
 
 /* footer */
 footer{
