@@ -38,6 +38,13 @@ h4, h5{
     font-size: 14px;
 }
 
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
 
 .clearfix:after{
     content: "";
@@ -74,17 +81,16 @@ h4, h5{
     color: #ffffff;
     padding: 8px 20px;
     font-size: small;
+    text-decoration: none;
 }
 .button_white{
     border: 1px solid;
     background-color: #ffffff;
-}
-a{
-    text-decoration: none;
     color: #000;
-    display: inline-block;
-    padding: 10px 20px;
+    padding: 8px 20px;
+    text-decoration: none;
 }
+
 
 /* barra di navigazione */
 nav{
@@ -104,6 +110,12 @@ nav ul:nth-child(2){
 }
 nav li{
     display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    padding: 10px 20px;
 }
 nav ul:first-child li:first-child{
     vertical-align: middle;
@@ -177,11 +189,8 @@ nav ul:first-child li:first-child{
 .dropbox_plan ul li{
     padding: 12px 0;
 }
-.buy_now{
-    color: #0000ff;
-    text-decoration: underline;
-    padding-top: 35px;
-    padding-left: 0;
+.dropbox_plan .col_3_9 p:nth-of-type(2){
+    padding-top: 30px;
 }
 .dropbox_plan .col_3_9 hr{
     width: 20%;
@@ -266,9 +275,8 @@ nav ul:first-child li:first-child{
     line-height: 50px;
 }
 .dropbox_buisness_title a{
-    padding: 35px 0;
-    color: blue;
-    text-decoration: underline;
+    display: inline-block;
+    padding: 40px 0;
 }
 .dropbox_buisness{
     width: 100%;
@@ -393,6 +401,7 @@ nav ul:first-child li:first-child{
     transform: rotate(180deg);
 }
 
+
 /* footer */
 footer{
     background-color: #000000;
@@ -406,7 +415,7 @@ footer .footer_list{
 footer ul{
     list-style: none;
     float: left;
-    padding: 0 50px;
+    padding: 0 38px;
     padding-bottom: 130px;
 }
 footer h5{
@@ -414,11 +423,11 @@ footer h5{
     padding-bottom: 20px;
     font-size: 20px;
 }
-footer ul a{
-    color: #ffffff;
-    padding: 0;
-    padding: 10px 0;
-    border: none;
+footer ul li a{
+    color: #ffffff;   
+}
+footer ul li{
+    padding: 8px 0;
 }
 footer ul:first-of-type{
     padding-left: 0;
@@ -426,9 +435,9 @@ footer ul:first-of-type{
 footer ul:last-of-type{
     padding-right: 0;
 }
-footer a{
+.footer_list > a{
     color: #808080;
     font-size: small;
-    padding: 30px 30px 0 0;
     border-top: 1px solid #808080;
+    padding: 30px 0;
 }
