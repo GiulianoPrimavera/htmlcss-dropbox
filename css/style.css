@@ -148,12 +148,26 @@ nav ul:first-child li:first-child{
     padding-bottom: 25px;
 }
 .hero .small{
-    padding-top: 5px;
-    padding-bottom: 25px;
+    padding: 25px 0;
 }
 .hero .fas{
     font-size: 30px;
+    animation: arrow_down 2s linear infinite;
 }
+/* animazione per la freccia */
+@keyframes arrow_down{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
 .hero .button_blue{
     font-size: 16px;
 }
