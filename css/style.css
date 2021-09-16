@@ -403,6 +403,7 @@ nav ul:first-child li:first-child{
 }
 .faq div h5{
     display: inline-block;
+    margin-bottom: -10px;
 }
 .faq div i{
     position: absolute;
@@ -410,13 +411,13 @@ nav ul:first-child li:first-child{
     transition: transform .3s;
 }
 .faq div p{
-    padding-top: 30px;
+    padding-top: 10px;
     height: 0;
-    display: none;
+    overflow: hidden;
+    transition: height .4s;
 }
 .faq div:focus p{
-    display: block;
-    height: 50px;
+    height: 60px;
 }
 .faq div:focus i{
     transform: rotate(180deg);
