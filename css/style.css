@@ -270,6 +270,7 @@ nav ul:first-child li:first-child{
 }
 .operations .col_3_9{
     padding: 30px;
+    transition: transform 1s;
 }
 .operations .col_3_9 img{
     width: 100%;
@@ -280,6 +281,9 @@ nav ul:first-child li:first-child{
 }
 .operations .col_3_9 p{
     line-height: 25px;
+}
+.operations .col_3_9:hover{
+    transform: scale(1.2);
 }
 
 /* sezione dropbox buisness */
