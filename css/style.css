@@ -208,6 +208,12 @@ nav ul:first-child li:first-child{
     list-style: none;
     padding: 15px 0;
 }
+.dropbox_plan ul:first-of-type li{
+    padding: 6px 0 6px 20px;
+}
+.dropbox_plan ul:first-of-type i{
+    margin-left: -20px;
+}
 .dropbox_plan ul li{
     padding: 12px 0;
 }
